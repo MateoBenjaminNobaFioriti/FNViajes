@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./registro.css">
+    <script src="./registro.js"></script>
+    <link rel="icon" href="../../imagenes-principal/imagen-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Registro | FN Viajes</title>
+</head>
+<body>
+    <!-- Ventinaitoa loca -->
+     <div class="ventana">
+        <div class="ventanaContenido">
+            <div class="imagen">
+                <a href="../../index.html">
+                    <img src="../../imagenes-principal/imagen-logo.png" alt="">
+                </a>
+            </div>
+            <div class="formulario">
+                <form action="">
+                    <label>Email</label>
+                    <input type="text" placeholder="example@mail.com" required id="mail">
+                    
+                    <div class="filaNombreApellido">
+                        <div class="divNombre">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" placeholder="Juan" required id="nombre">
+                        </div>
+
+                        <div class="divApellido">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" placeholder="Perez" required id="apellido">
+                        </div>
+                    </div>
+
+                    <div class="filaContrasenias">
+                        <div class="divContrasenia1">
+                            <label for="contrasenia1">Contraseña</label>
+                            <input type="password" placeholder="*****" required id="contrasenia1">
+                        </div>
+
+                        <div class="divContrasenia2">
+                            <label for="contrasenia2">Repetir Contraseña</label>
+                            <input type="password" placeholder="*****" required id="contrasenia2">
+                        </div>
+                    </div>
+
+                    <button id="botonRegistro">Registrarse</button>
+                </form>
+            </div>
+        </div>
+     </div>
+</body>
+
+</html>

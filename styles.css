@@ -1,0 +1,296 @@
+html{
+    font-family: "roboto";
+}
+
+body{
+    margin: 0 0 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(15, 15, 15, 1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-boton-logo {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.derechaNavbar {
+    width: 75%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#div-boton-logo{
+    margin: 0 0vw 0 0;
+}
+
+#boton-logo{
+    height: auto;
+    width: 6vw;
+}
+
+#div-boton-carrito-compras{
+    margin: 0 1vw 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#div-boton-carrito-compras h2{
+    width: 20vh;
+
+    font-size: 2vh;
+    color: white;
+
+    margin-right: 2vh;
+}
+
+#a-boton-carrito-compras{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#a-boton-carrito-compras:hover{
+    background-color: rgba(230, 230, 230, 1);
+}
+
+#boton-carrito-compras{
+    height: 4vh;
+    width: 4vh;
+}
+
+#div-boton-cuenta{
+    margin: 0 1vw 0 1vw;
+}
+
+#a-boton-cuenta{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5;
+}
+
+#a-boton-cuenta:hover{
+    background-color: rgba(230, 230, 230, 1);
+}
+
+#boton-cuenta{
+    height: 4vh;
+    width: 4vh;
+}
+
+#div-boton-logout{
+    margin: 0 1vw 0 1vw;
+}
+
+#a-boton-logout{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5;
+}
+
+#a-boton-logout:hover{
+    background-color: rgba(230, 230, 230, 1);
+}
+
+#boton-logout{
+    height: 4vh;
+    width: 4vh;
+}
+
+#div-select-idioma{
+    margin: 0 0vw 0 1vw;
+}
+
+#select-idioma{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrusel{
+    height: 85vh;
+    width: 100%;
+}
+
+#imagen-principal-carrusel-1{
+    height: 85vh;
+    width: 100%;
+    margin: auto;
+}
+
+#contenido{
+    height: auto;
+    width: 100%;
+
+    padding-bottom: 2vh;
+}
+
+#contenido-titulo {
+    height: 10vh;
+    width: 100%;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+#contenido-titulo h1{
+    margin: 5vh;
+}
+
+
+#contenido-viajes{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.viaje {
+    height: auto;
+    width: 20vw;
+
+    display: inline-block;
+
+    margin: 25px;
+}
+
+.viaje img {
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5px;
+    margin-bottom: 2.5vh;
+}
+
+.viaje p {
+    height: 10vh;
+    margin: 0;
+}
+
+.div-boton {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.boton:hover{
+    color: white;
+    background-color: rgba(230, 230, 230, 1);
+    border: 1px solid grey;
+}
+
+#footer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 1);
+    bottom: 0;
+}
+#footer-informacion{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#navegacion-rapida{
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+}
+
+#navegacion-rapida a{
+    color: aliceblue;
+}
+
+#contacto{
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+}
+
+#informacion-legal{
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+}
+
+#informacion-legal a{
+    color: aliceblue;
+}
+
+#redes{
+    height: 25vh;
+    display: flex;
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#redes img{
+    height: 6.5vh;
+    width: 3.5vw;
+    margin: 0 0.5vw 0 0.5vw;
+}

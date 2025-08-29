@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6849837b620019a9ff50eb67"
+  },
+  "id": 1,
+  "nombre": "Cumbres de Fuego",
+  "lugar": "Neuquen",
+  "desc": "Trekking al volcan Lanin",
+  "duracion": 14,
+  "img": "imagenes-viajes/viaje-1.jpg",
+  "precio": 1200000
+},
+{
+  "_id": {
+    "$oid": "684acad48db915f76069440d"
+  },
+  "id": 2,
+  "nombre": "Senderos del Viento",
+  "lugar": "Santa Cruz",
+  "desc": "Travesía en el Parque El Chaltén",
+  "duracion": 7,
+  "img": "imagenes-viajes/viaje-2.jpg",
+  "precio": 700000
+},
+{
+  "_id": {
+    "$oid": "684c19c74728c1f0b755870e"
+  },
+  "id": 3,
+  "nombre": "Quebrada del Condor",
+  "lugar": "Córdoba",
+  "desc": "Trekking en las sierras de Córdoba",
+  "duracion": 8,
+  "img": "imagenes-viajes/viaje-3.jpg",
+  "precio": 950000
+},
+{
+  "_id": {
+    "$oid": "684c1a504728c1f0b7558710"
+  },
+  "id": 4,
+  "nombre": "Huella Andina",
+  "lugar": "Chubut",
+  "desc": "De Lago Pueblo a Epuyén",
+  "duracion": 14,
+  "img": "imagenes-viajes/viaje-4.jpg",
+  "precio": 1500000
+},
+{
+  "_id": {
+    "$oid": "684c1a8d4728c1f0b7558712"
+  },
+  "id": 5,
+  "nombre": "Traslasierra Salvaje",
+  "lugar": "Cordoba/San Luis",
+  "desc": "Caminata entre Rios de Montaña",
+  "duracion": 21,
+  "img": "imagenes-viajes/viaje-5.jpg",
+  "precio": 1900000
+},
+{
+  "_id": {
+    "$oid": "684c1ade4728c1f0b7558714"
+  },
+  "id": 6,
+  "nombre": "Paso del Agua Negra",
+  "lugar": "San Juan",
+  "desc": "Trekking en la Cordillera Sanjuanina",
+  "duracion": 7,
+  "img": "imagenes-viajes/viaje-6.jpg",
+  "precio": 800000
+},
+{
+  "_id": {
+    "$oid": "684c1b394728c1f0b7558717"
+  },
+  "id": 7,
+  "nombre": "Valle Encantado",
+  "lugar": "Mendoza",
+  "desc": "Aventira en las Montañas de Mendoza",
+  "duracion": 14,
+  "img": "imagenes-viajes/viaje-7.jpg",
+  "precio": 1400000
+},
+{
+  "_id": {
+    "$oid": "684c1b624728c1f0b7558719"
+  },
+  "id": 8,
+  "nombre": "Senderos del Silencio",
+  "lugar": "Salta/Tucuman/Catamarca",
+  "desc": "Trekking por los Valles Calchaquies",
+  "duracion": 21,
+  "img": "imagenes-viajes/viaje-8.jpg",
+  "precio": 2100000
+}]

@@ -1,0 +1,291 @@
+html{
+    font-family: "roboto";
+}
+
+body{
+    margin: 0 0 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+#navbar{
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(15, 15, 15, 1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-boton-logo {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.derechaNavbar {
+    width: 75%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#div-boton-logo{
+    margin: 0 0vw 0 0;
+}
+
+#boton-logo{
+    height: auto;
+    width: 6vw;
+}
+
+#div-boton-carrito-compras{
+    margin: 0 1vw 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#div-boton-carrito-compras h2{
+    width: 20vh;
+
+    font-size: 2vh;
+    color: white;
+
+    margin-right: 2vh;
+}
+
+#a-boton-carrito-compras{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#a-boton-carrito-compras:hover{
+    background-color: rgba(230, 230, 230, 1);
+}
+
+#boton-carrito-compras{
+    height: 4vh;
+    width: 2vw;
+}
+
+#div-boton-cuenta{
+    margin: 0 1vw 0 1vw;
+}
+
+#a-boton-cuenta{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5;
+}
+
+#a-boton-cuenta:hover{
+    background-color: rgba(230, 230, 230, 1);
+}
+
+#boton-cuenta{
+    height: 4vh;
+    width: 2vw;
+}
+
+#div-select-idioma{
+    margin: 0 0vw 0 1vw;
+}
+
+#select-idioma{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenido */
+.contenido {
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+
+    background-color: white;
+}
+
+.contenido h1, .contenido h2, .contenido h3, .contenido p {
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoIzq {
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidoIzq img {
+    height: 70vh;
+    max-width: 90%;
+
+    border-radius: 5px;
+}
+
+.contenidoDer {
+    height: 100%;
+    width: 40%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidoDer .texto {
+    height: 80%;
+    width: 80%;
+}
+
+.txtArriba {
+    height: 70%;
+    width: 100%;
+}
+
+.txtArriba h1 {
+    padding: 3vh 2vh 0;
+}
+
+.txtArriba h3 {
+    padding: 3vh 2vh 0;
+}
+
+.txtArriba p {
+    padding: 3vh 2vh 0;
+}
+
+.txtAbajo {
+    height: 30%;
+    width: 100%;
+}
+
+.txtAbajo h2 {
+    height: 20%;
+    width: 100%;
+
+    text-align: center;
+}
+
+.txtAbajoButtons {
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtAbajoButtons button {
+    transition: 0.20s;
+    height: 7.5vh;
+    width: 40%;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    margin: 1vh;
+
+    border-radius: 3.75vh;
+}
+
+.txtAbajoButtons button:hover {
+    cursor: pointer;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+/* Footer */
+#footer{
+    height: 50vh;
+    width: 100%;
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 1);
+    bottom: 0;
+}
+
+#footer-informacion{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#navegacion-rapida{
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+}
+
+#navegacion-rapida a{
+    color: aliceblue;
+}
+
+#contacto{
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+}
+
+#informacion-legal{
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+}
+
+#informacion-legal a{
+    color: aliceblue;
+}
+
+#redes{
+    height: 25vh;
+    display: flex;
+    color: aliceblue;
+    margin: 0vw 5vw 0vw 5vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#redes img{
+    height: 6.5vh;
+    width: 3.5vw;
+    margin: 0 0.5vw 0 0.5vw;
+}
