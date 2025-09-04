@@ -6,6 +6,8 @@ const mongoose = require('mongoose');
 const Viajes = require('./Viajes');
 const Usuarios = require('./Usuarios');
 const Compras = require('./Compras');
+const dotenv = require("dotenv");
+dotenv.config();
 
 const app = express();
 app.use(cors()); //Le permite al frontend hacer peticiones
@@ -21,7 +23,7 @@ app.use(express.json());
 .catch(err => console.error(err)
 );*/
 
-mongoose.connect('mongodb+srv://mateonoba:ISFT220@cluster0.ixldm1o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect(process.env.URI)
 .then(() => {
     console.log('Conectado a MongoDB');
     encontrarViajes();
@@ -262,6 +264,6 @@ app.get('/api/borrarCarrito/:idUsuario/:idNuevaCompra', async (req, res) => {
   }
 });
 
-app.listen(2006, () => {
+app.listen(process.env.PORT, () => {
   console.log('Servidor corriendo en http://localhost:2006');
 });
