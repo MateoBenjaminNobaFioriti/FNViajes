@@ -11,7 +11,17 @@ const app = express();
 app.use(cors()); //Le permite al frontend hacer peticiones
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/fnviajes')
+/*mongoose.connect('mongodb://localhost:27017/fnviajes')
+.then(() => {
+    console.log('Conectado a MongoDB');
+    encontrarViajes();
+    encontrarUsuarios();
+    encontrarCompras();
+})  
+.catch(err => console.error(err)
+);*/
+
+mongoose.connect('mongodb+srv://mateonoba:ISFT220@cluster0.ixldm1o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => {
     console.log('Conectado a MongoDB');
     encontrarViajes();
