@@ -36,14 +36,14 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
 
             // Encontrar el ultimo id de usuarios para generar el siguiente
-            const resUsuarios = await fetch(`http://localhost:2006/api/usuario/todos`);
+            const resUsuarios = await fetch(`https://fnviajes.onrender.com/api/usuario/todos`);
             const usuarios = await resUsuarios.json();
             console.log(usuarios);
             const idNuevoUsuario = usuarios.length + 1; 
             console.log(idNuevoUsuario);
 
             // Ingreso del nuevo usuario a la base de datos
-            await fetch('http://localhost:2006/api/registro', {
+            await fetch('https://fnviajes.onrender.com/api/registro', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
