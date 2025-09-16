@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (idUsuario) {
         console.log(`Usuario Conseguido: ${idUsuario}`);
         console.log(`Intentando conectar a: http://localhost:2006/api/usuarios/${idUsuario}`);
-        const resUser = await fetch(`http://localhost:2006/api/usuarios/${idUsuario}`);
+        const resUser = await fetch(`https://fnviajes.onrender.com/api/usuarios/${idUsuario}`);
         usuario = await resUser.json();
         console.log(usuario);
 
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     console.log(`Consiguiendo Viajes:`);
     console.log(`Intentando conectar a: http://localhost:2006/api/viaje/todos`);
-    const res = await fetch(`http://localhost:2006/api/viaje/todos`);
+    const res = await fetch(`https://fnviajes.onrender.com/api/viaje/todos`);
     const viajes = await res.json();
     console.log(viajes);
 
