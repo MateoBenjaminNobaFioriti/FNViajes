@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const botonInicioSesion = document.getElementById("botonInicioSesion");
     
-    const resUsuarios = await fetch(`http://localhost:2006/api/usuario/todos`);
+    const resUsuarios = await fetch(`https://fnviajes.onrender.com/api/usuario/todos`);
     const usuarios = await resUsuarios.json();
     console.log(usuarios);
 
