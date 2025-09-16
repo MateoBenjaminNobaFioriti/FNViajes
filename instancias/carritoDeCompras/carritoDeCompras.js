@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         console.log(`Usuario Conseguido: ${idUsuario}`);
         console.log(`Intentando conectar a: http://localhost:2006/api/usuarios/${idUsuario}`);
-        const resUser = await fetch(`http://localhost:2006/api/usuarios/${idUsuario}`);
+        const resUser = await fetch(`https://fnviajes.onrender.com/api/usuarios/${idUsuario}`);
         usuario = await resUser.json();
         console.log(usuario);
         botonesUsuario(idUsuario);
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (usuario.carrito.length > 0) {
         for (let i = 0; i < usuario.carrito.length; i++) {
             console.log(`Intentando conectar a: http://localhost:2006/api/viajes/${usuario.carrito[i]}`);
-            const res = await fetch(`http://localhost:2006/api/viajes/${usuario.carrito[i]}`);
+            const res = await fetch(`https://fnviajes.onrender.com/api/viajes/${usuario.carrito[i]}`);
             const viaje = await res.json();
             carritoUsuario.push(viaje);
         }
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     botonComprar.addEventListener("click", async (e) => {
         e.preventDefault(); // Cancela el comportamiento
         // Encontrar el ultimo id de compras para generar el siguiente
-        const resCompra = await fetch(`http://localhost:2006/api/compra/todos`);
+        const resCompra = await fetch(`https://fnviajes.onrender.com/api/compra/todos`);
         const compras = await resCompra.json();
         console.log(compras);
         const idNuevaCompra = compras.length + 1; 
@@ -209,12 +209,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         const montoCompra = montoTotal;
 
         // Crear el objeto en compras
-        const resNuevaCompra = await fetch(`http://localhost:2006/api/insertarCompra/${idNuevaCompra}/${idUsuarioCompra}/${arrayArticulosCompra}/${montoCompra}`);
+        const resNuevaCompra = await fetch(`https://fnviajes.onrender.com/api/insertarCompra/${idNuevaCompra}/${idUsuarioCompra}/${arrayArticulosCompra}/${montoCompra}`);
         const nuevaCompra = await resNuevaCompra.json();
         console.log(`Compra ingresada: ${nuevaCompra}`);
 
         // Borrar los viajes de "usuario.carrito"
-        const resBorrarCarrito = await fetch(`http://localhost:2006/api/borrarCarrito/${idUsuarioCompra}/${idNuevaCompra}`);
+        const resBorrarCarrito = await fetch(`https://fnviajes.onrender.com/api/borrarCarrito/${idUsuarioCompra}/${idNuevaCompra}`);
         const borrarCarrito = await resBorrarCarrito.json();
         console.log(borrarCarrito);
 
@@ -242,7 +242,7 @@ function saludarUsuario(usuario) {
 async function borrarElemento(posicion, idUsuario) {
     console.log(`index: ${posicion}, usuario: ${idUsuario}`);
 
-    const resBorrarDelCarrito = await fetch(`http://localhost:2006/api/borrarDelCarrito/${idUsuario}/${posicion}`);
+    const resBorrarDelCarrito = await fetch(`https://fnviajes.onrender.com/api/borrarDelCarrito/${idUsuario}/${posicion}`);
     const resultado = await resBorrarDelCarrito.json();
     console.log(`La posición ${posicion} del carrito fue eliminada`);
     console.log(resultado);
