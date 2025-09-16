@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         console.log(`Usuario Conseguido: ${idUsuario}`);
         console.log(`Intentando conectar a: http://localhost:2006/api/usuarios/${idUsuario}`);
-        const resUser = await fetch(`http://localhost:2006/api/usuarios/${idUsuario}`);
+        const resUser = await fetch(`https://fnviajes.onrender.com/api/usuarios/${idUsuario}`);
         usuario = await resUser.json();
         console.log(usuario);
 
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.log(`Script funcionando con id: ${id}`);
 
     console.log(`Intentando conectar a: http://localhost:2006/api/viajes/${id}`);
-    const res = await fetch(`http://localhost:2006/api/viajes/${id}`);
+    const res = await fetch(`https://fnviajes.onrender.com/api/viajes/${id}`);
     const viajes = await res.json();
     console.log(viajes);
     
@@ -52,13 +52,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (usuario != null) {
         const botonComprarYA = document.getElementById("comprarYA");
         botonComprarYA.addEventListener("click", async () => {
-            const resAgregarAlCarrito = await fetch(`http://localhost:2006/api/agregarAlCarrito/${idUsuario}/${id}`);
+            const resAgregarAlCarrito = await fetch(`https://fnviajes.onrender.com/api/agregarAlCarrito/${idUsuario}/${id}`);
             window.location.href = `http://localhost:5500/instancias/carritoDeCompras/carritoDeCompras.html?usuario=${idUsuario}`;
         });
 
         const botonAgregarCarrito = document.getElementById("botonAgregarCarrito");
         botonAgregarCarrito.addEventListener("click", async () => {
-            const resAgregarAlCarrito = await fetch(`http://localhost:2006/api/agregarAlCarrito/${idUsuario}/${id}`);
+            const resAgregarAlCarrito = await fetch(`https://fnviajes.onrender.com/api/agregarAlCarrito/${idUsuario}/${id}`);
             console.log(`Viaje ${id} agregado al carrito de ${usuario.nombre}`);
             alert("Elemento añadido al carrito");
         });
