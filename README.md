@@ -43,12 +43,6 @@ Ambos sistemas se conectan a la misma base de datos para compartir información 
 
 ---
 
-## 📸 Imagenes
-
-📌 *(Agregar imágenes del proyecto si querés)*
-
----
-
 ## 🛠️ Tecnologías utilizadas
 
 ### 🖥️ Aplicación de escritorio
