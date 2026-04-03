@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\clases\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\clases\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\formusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\formusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\formviajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\formviajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\formviajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\formviajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\clases\\viajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\clases\\viajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\clases\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\clases\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\clases\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\clases\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|c:\\users\\aguzc\\onedrive\\escritorio\\fnviajes(c# inicial)\\fnviajes\\fnviajesc#\\fnviajes\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541CFBC1-7E1B-46B4-9827-77505B7A1D13}|FNviajes\\FNviajes.csproj|solutionrelative:fnviajes\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormUsuario.cs",
+              "RelativeDocumentMoniker": "FNviajes\\FormUsuario.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormUsuario.cs",
+              "RelativeToolTip": "FNviajes\\FormUsuario.cs",
+              "ViewState": "AgIAABEAAAAwMzMzM7MwwC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:52:04.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormUsuario.cs",
+              "RelativeDocumentMoniker": "FNviajes\\FormUsuario.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FNviajes\\FormUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:52:01.326Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "FNviajes\\FormUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormUsuario.Designer.cs",
+              "RelativeToolTip": "FNviajes\\FormUsuario.Designer.cs",
+              "ViewState": "AgIAAAYAAAAgMzMzMzMvwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:51:57.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormViajes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormViajes.cs",
+              "RelativeDocumentMoniker": "FNviajes\\FormViajes.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormViajes.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "FNviajes\\FormViajes.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:50:39.879Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseDeDatos.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\BaseDeDatos.cs",
+              "RelativeDocumentMoniker": "FNviajes\\Clases\\BaseDeDatos.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\BaseDeDatos.cs",
+              "RelativeToolTip": "FNviajes\\Clases\\BaseDeDatos.cs",
+              "ViewState": "AgIAAJ0AAAAAODMzMzMXwLIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:46:05.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Viajes.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\Viajes.cs",
+              "RelativeDocumentMoniker": "FNviajes\\Clases\\Viajes.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\Viajes.cs",
+              "RelativeToolTip": "FNviajes\\Clases\\Viajes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:57:56.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Compras.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\Compras.cs",
+              "RelativeDocumentMoniker": "FNviajes\\Clases\\Compras.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\Compras.cs",
+              "RelativeToolTip": "FNviajes\\Clases\\Compras.cs",
+              "ViewState": "AgIAABgAAAAAMjMzMzPzvyAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:57:50.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormViajes.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormViajes.cs",
+              "RelativeDocumentMoniker": "FNviajes\\FormViajes.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormViajes.cs*",
+              "RelativeToolTip": "FNviajes\\FormViajes.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAhwBIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:54:30.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormInicio.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormInicio.cs",
+              "RelativeDocumentMoniker": "FNviajes\\FormInicio.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\FormInicio.cs",
+              "RelativeToolTip": "FNviajes\\FormInicio.cs",
+              "ViewState": "AgIAAAkAAABgZmZmZmYkwA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:53:47.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\Usuarios.cs",
+              "RelativeDocumentMoniker": "FNviajes\\Clases\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\aguzc\\OneDrive\\Escritorio\\FNviajes(c# inicial)\\FNviajes\\FNviajesC#\\FNviajes\\Clases\\Usuarios.cs",
+              "RelativeToolTip": "FNviajes\\Clases\\Usuarios.cs",
+              "ViewState": "AgIAACcAAADAzMzMzMw2wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:49:18.627Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

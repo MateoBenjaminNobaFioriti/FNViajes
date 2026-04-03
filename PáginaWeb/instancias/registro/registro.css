@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "roboto";
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+
+    background-color: lightgray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ventana {
+    height: 80vh;
+    width: 50vw;
+
+    background-color: #0D0E0E;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px lightgray solid;
+    border-radius: 10px;
+}
+
+.ventanaContenido {
+    width: 100%;
+}
+
+.imagen {
+    width: 100%;
+    height: 30%;
+
+    margin-bottom: 5vh;
+    
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.imagen img {
+    width: 10vw;
+}
+
+.formulario {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.formulario label {
+    width: 100%;
+
+    color: white;
+    display: block;
+}
+
+.formulario input {
+    transition: 0.25s ease-in-out;
+    width: 100%;
+    height: 2vh;
+
+    color: white;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    
+    padding: 1vh 0;
+    margin: 1vh 0 3vh;
+
+    display: block;
+}
+
+.formulario input::placeholder {
+    transition: 0.25s;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.formulario input:focus::placeholder {
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.formulario input:focus {
+    color: white;
+    background-color: transparent;
+
+    outline: none;
+}
+
+.formulario button {
+    transition: 0.20s;
+    height: 5vh;
+    width: 100%;
+
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    margin: 1vh 0;
+
+    border-radius: 3.75vh;
+}
+
+.formulario button:hover {
+    cursor: pointer;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+#nombre, #apellido, #contrasenia1, #contrasenia2 {
+    width: 100%;
+}
+
+.divNombre, .divApellido, .divContrasenia1, .divContrasenia2 {
+    width: 48%;
+}
+
+.filaNombreApellido, .filaContrasenias {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vh;
+    width: 100%;
+}
+
+form {
+    width: 70%;
+}
